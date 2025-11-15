@@ -1,0 +1,83 @@
+import type { Product } from "./types"
+
+// Productos mockup para desarrollo sin base de datos - Nano Moringa
+export const mockProducts: Product[] = [
+  {
+    id: "aceite-nano-moringa",
+    name: "Aceite Nano Moringa",
+    slug: "aceite-nano-moringa",
+    description: "Aceite micronizado para mejor absorción diaria. Producto medicinal 100% natural.",
+    longDescription: "Nuestro aceite Nano Moringa está micronizado para una mejor absorción diaria.\n\n✔️ Micronizado para mejor absorción\n✔️ Producto 100% natural\n✔️ Apoyo antioxidante\n✔️ Ayuda a mantener el enfoque sin picos ni caídas\n✔️ Ideal para tu rutina diaria\n✔️ Bienestar en cada gota\n\nUso recomendado: Aplicación tópica en la zona de molestia. Masajear suavemente hasta absorción completa. Para uso diario, integrar en tu rutina AM/PM.",
+    long_description: "Aceite micronizado para bienestar diario. Producto medicinal 100% natural.",
+    price: 50000,
+    compareAt: 75000,
+    compare_at: 75000,
+    category: "Aceites",
+    sizes: ["30ml", "60ml"],
+    colors: ["Natural"],
+    images: [
+      "/uploads/nanomoringa-hero1.png",
+      "/uploads/nanomoringa-hero-2.png",
+      "/placeholder.svg"
+    ],
+    videos: [],
+    tags: ["micronizado", "bienestar-diario", "bestseller", "natural", "100-natural"],
+    stock: 50,
+    featured: true,
+    sku: "NANO-30",
+    createdAt: new Date().toISOString(),
+    created_at: new Date().toISOString(),
+    is_on_sale: true,
+    sale_price: 50000,
+  },
+  {
+    id: "aceite-relajante-nano-moringa",
+    name: "Aceite Relajante Nano Moringa",
+    slug: "aceite-relajante-nano-moringa",
+    description: "Aceite relajante tópico de origen botánico. Para momentos de calma y bienestar.",
+    longDescription: "Nuestro aceite relajante es un tópico de origen botánico diseñado para acompañar momentos de calma y bienestar.\n\n✔️ Tópico de origen botánico\n✔️ Ideal para masajes relajantes\n✔️ Textura suave y aroma natural\n✔️ Absorción rápida\n✔️ Para uso diario\n\nIdeal para integrar en tu rutina de autocuidado, especialmente en momentos de tensión o después de actividades físicas.\n\nUso: Aplicar en la zona deseada y masajear suavemente. Ideal para rutina AM/PM.",
+    long_description: "Aceite relajante tópico de origen botánico para bienestar diario.",
+    price: 50000,
+    compareAt: 85000,
+    compare_at: 85000,
+    category: "Aceites",
+    sizes: ["30ml", "60ml"],
+    colors: ["Relajante"],
+    images: [
+      "/uploads/gel-crema.png",
+      "/placeholder.svg"
+    ],
+    videos: [],
+    tags: ["relajante", "topico", "botanico", "calma", "bienestar"],
+    stock: 25,
+    featured: true,
+    sku: "NANO-REL-30",
+    createdAt: new Date().toISOString(),
+    created_at: new Date().toISOString(),
+    is_on_sale: false,
+  },
+  {
+    id: "aceite-nano-moringa-60ml",
+    name: "Aceite Nano Moringa 60ml",
+    slug: "aceite-nano-moringa-60ml",
+    description: "Presentación grande de aceite micronizado. Ideal para uso continuo.",
+    longDescription: "Nuestra presentación de 60ml de aceite micronizado es ideal para uso continuo y rutinas diarias.\n\n✔️ Mayor cantidad, mejor precio\n✔️ Micronizado para mejor absorción\n✔️ Producto 100% natural\n✔️ Ideal para rutinas AM/PM\n✔️ Constancia que se nota\n\nPerfecto para quienes buscan mantener su bienestar diario de forma constante.\n\nUso: Aplicación tópica diaria. Integrar en tu rutina de autocuidado.",
+    long_description: "Presentación grande de aceite micronizado para uso continuo.",
+    price: 85000,
+    category: "Aceites",
+    sizes: ["60ml"],
+    colors: ["Natural"],
+    images: [
+      "/uploads/nanomoringa-hero4.jpeg",
+      "/placeholder.svg"
+    ],
+    videos: [],
+    tags: ["presentacion-grande", "uso-continuo", "rutina", "constancia"],
+    stock: 30,
+    featured: false,
+    sku: "NANO-60",
+    createdAt: new Date().toISOString(),
+    created_at: new Date().toISOString(),
+  },
+]
+
