@@ -274,7 +274,7 @@ export default function HomePage() {
               <div className="mb-8 sm:mb-12 lg:mb-16 relative">
                 <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-primary/20 bg-gradient-to-br from-[#4A8F53] via-[#3A7A43] to-[#2A6A33] flex items-center justify-center relative" style={{ minHeight: '300px', maxHeight: '600px' }}>
                   <video
-                    src="/uploads/publicacion-mn-4.mp4"
+                    src="/uploads/video-nanomoringa.mp4"
                     className="w-full h-auto max-h-[600px] object-contain"
                     autoPlay
                     loop
@@ -353,11 +353,10 @@ export default function HomePage() {
 
               {/* Carrusel de imágenes adicionales */}
               <ImageCarousel images={[
-                "/uploads/whatsapp-image-1.jpeg",
-                "/uploads/whatsapp-image-2.jpeg",
-                "/uploads/gel-crema.png",
                 "/uploads/chatgpt-image-1.png",
                 "/uploads/image-2.png",
+                "/uploads/whatsapp-image-1.jpeg",
+                "/uploads/whatsapp-image-2.jpeg",
                 "/uploads/nanomoringa-hero4.5.jpeg"
               ]} />
             </div>
