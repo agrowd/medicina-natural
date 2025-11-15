@@ -274,7 +274,7 @@ export default function HomePage() {
               <div className="mb-8 sm:mb-12 lg:mb-16 relative">
                 <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-primary/20 bg-gradient-to-br from-[#4A8F53] via-[#3A7A43] to-[#2A6A33] flex items-center justify-center relative" style={{ minHeight: '300px', maxHeight: '600px' }}>
                   <video
-                    src="/uploads/video-nanomoringa.mp4"
+                    src="/uploads/publicacion-mn-4.mp4"
                     className="w-full h-auto max-h-[600px] object-contain"
                     autoPlay
                     loop
@@ -324,26 +324,26 @@ export default function HomePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-12">
                 <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-primary/20 aspect-square bg-white flex items-center justify-center">
                   <Image
+                    src="/uploads/publicacion-mn-5.png"
+                    alt="Publicación Medicina Natural"
+                    width={600}
+                    height={600}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-primary/20 aspect-square bg-white flex items-center justify-center">
+                  <Image
+                    src="/uploads/publicacion-mn-7.png"
+                    alt="Publicación Medicina Natural"
+                    width={600}
+                    height={600}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-primary/20 aspect-square bg-white flex items-center justify-center">
+                  <Image
                     src="/uploads/beneficios-cbd.png"
                     alt="Beneficios CBD - Medicina Natural"
-                    width={600}
-                    height={600}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-primary/20 aspect-square bg-white flex items-center justify-center">
-                  <Image
-                    src="/uploads/gel-crema.png"
-                    alt="Gel Crema - Medicina Natural"
-                    width={600}
-                    height={600}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-primary/20 aspect-square bg-white flex items-center justify-center">
-                  <Image
-                    src="/uploads/nanomoringa-hero1.png"
-                    alt="Producto natural Medicina Natural"
                     width={600}
                     height={600}
                     className="w-full h-full object-contain"
@@ -353,10 +353,12 @@ export default function HomePage() {
 
               {/* Carrusel de imágenes adicionales */}
               <ImageCarousel images={[
-                "/uploads/nanomoringa-hero4.5.jpeg",
-                "/uploads/Nano%20Moringa%202110%20(6).png",
-                "/uploads/Nano%20Moringa%202110%20(7).png",
-                "/uploads/Nano%20Moringa%202110%20(8).png"
+                "/uploads/whatsapp-image-1.jpeg",
+                "/uploads/whatsapp-image-2.jpeg",
+                "/uploads/gel-crema.png",
+                "/uploads/chatgpt-image-1.png",
+                "/uploads/image-2.png",
+                "/uploads/nanomoringa-hero4.5.jpeg"
               ]} />
             </div>
           </div>
