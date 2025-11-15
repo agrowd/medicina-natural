@@ -42,9 +42,10 @@ export async function POST(request: Request) {
     const body = await request.json()
     const { phone, name, sender_type, message, message_type, media_url, whatsapp_message_id } = body
     
-    if (!phone || !message) {
+    // Validar: necesita phone y (message o media_url)
+    if (!phone || (!message && !media_url)) {
       return NextResponse.json(
-        { error: 'phone and message required' },
+        { error: 'phone and (message or media_url) required' },
         { status: 400 }
       )
     }
