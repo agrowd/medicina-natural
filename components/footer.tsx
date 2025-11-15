@@ -18,9 +18,9 @@ export function Footer() {
           <div className="col-span-1 sm:col-span-2 lg:col-span-2">
             <Link href="/" className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
               <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-primary-foreground flex items-center justify-center p-0.5 overflow-hidden shadow-lg">
-                <Image src="/brand/nanomoringa-logo.png" alt="Nano Moringa" width={40} height={40} className="object-contain w-full h-full sm:w-auto sm:h-auto" />
+                <Image src="/brand/medicina-natural-logo.png" alt="Medicina Natural" width={40} height={40} className="object-contain w-full h-full sm:w-auto sm:h-auto" />
               </div>
-              <span className="text-lg sm:text-xl lg:text-2xl font-bold text-primary-foreground">NANO MORINGA</span>
+              <span className="text-lg sm:text-xl lg:text-2xl font-bold text-primary-foreground">MEDICINA NATURAL</span>
             </Link>
             <p className="text-sm sm:text-base text-primary-foreground/80 max-w-md leading-relaxed mb-4 sm:mb-6">
               Productos Medicinales 100% naturales. Aceites micronizados para tu bienestar diario. 
@@ -67,8 +67,8 @@ export function Footer() {
             <h3 className="text-base sm:text-lg font-semibold mb-4 sm:mb-6 text-primary-foreground">Contacto</h3>
             <ul className="space-y-2 sm:space-y-3 text-sm sm:text-base text-primary-foreground/80">
               <li>
-                <a href="https://instagram.com/nanomoringa" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors flex items-center gap-2">
-                  <span>📷</span> @nanomoringa
+                <a href="https://instagram.com/cbd.medicina.ok" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors flex items-center gap-2">
+                  <span>📷</span> @cbd.medicina.ok
                 </a>
               </li>
               <li>
@@ -81,7 +81,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-primary-foreground/10 mt-6 sm:mt-8 lg:mt-12 pt-6 sm:pt-8 text-center">
-          <p className="text-xs sm:text-sm lg:text-base text-primary-foreground/60">&copy; {new Date().getFullYear()} Nano Moringa. Todos los derechos reservados.</p>
+          <p className="text-xs sm:text-sm lg:text-base text-primary-foreground/60">&copy; {new Date().getFullYear()} Medicina Natural. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

@@ -44,7 +44,7 @@ export function ChatWindow({ onClose }: { onClose: () => void }) {
       // Mensaje inicial del bot
       const welcomeMessage: Message = {
         id: '1',
-        text: '¡Hola! 👋 Soy tu asistente de Nano Moringa. Para ayudarte mejor, necesito algunos datos básicos.',
+        text: '¡Hola! 👋 Soy tu asistente de Medicina Natural. Para ayudarte mejor, necesito algunos datos básicos.',
         sender: 'bot',
         timestamp: new Date()
       }
@@ -273,7 +273,7 @@ export function ChatWindow({ onClose }: { onClose: () => void }) {
             <Bot className="w-5 h-5" />
           </div>
           <div>
-            <h3 className="font-semibold text-base">Nano Moringa</h3>
+            <h3 className="font-semibold text-base">Medicina Natural</h3>
             <p className="text-xs opacity-90">Asistente virtual</p>
           </div>
         </div>

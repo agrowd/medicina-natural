@@ -5,7 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Nano Moringa - Paleta de Colores */
+  /* Medicina Natural - Paleta de Colores */
   /* Fondo beige cálido #F6F0DE */
   --background: oklch(0.95 0.03 85);
   /* Verde muy oscuro #213A2E para texto */

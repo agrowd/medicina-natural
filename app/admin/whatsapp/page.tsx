@@ -51,8 +51,8 @@ export default function WhatsAppAdminPage() {
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center overflow-hidden border-2 border-white/30">
               <Image
-                src="/brand/nanomoringa-logo.png"
-                alt="Nano Moringa"
+                src="/brand/medicina-natural-logo.png"
+                alt="Medicina Natural"
                 width={40}
                 height={40}
                 className="object-contain"
@@ -60,7 +60,7 @@ export default function WhatsAppAdminPage() {
             </div>
             <div>
               <h1 className="text-lg font-semibold">WhatsApp Business</h1>
-              <p className="text-xs text-white/80">Nano Moringa</p>
+              <p className="text-xs text-white/80">Medicina Natural</p>
             </div>
           </div>
         </div>

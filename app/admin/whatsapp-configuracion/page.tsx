@@ -88,7 +88,7 @@ export default function WhatsAppConfiguracionPage() {
           {
             id: "msg-1",
             type: "text",
-            content: "¡Hola! 👋 Bienvenido a Nano Moringa 🌿",
+            content: "¡Hola! 👋 Bienvenido a Medicina Natural 🌿",
             delay: 0,
           },
           {
@@ -195,8 +195,8 @@ export default function WhatsAppConfiguracionPage() {
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-white border-2 border-gray-200 flex items-center justify-center overflow-hidden">
                   <Image
-                    src="/brand/nanomoringa-logo.png"
-                    alt="Nano Moringa"
+                    src="/brand/medicina-natural-logo.png"
+                    alt="Medicina Natural"
                     width={40}
                     height={40}
                     className="object-contain"

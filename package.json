@@ -2,7 +2,7 @@
   "name": "medicina-natural-ecommerce",
   "version": "1.0.0",
   "private": true,
-  "description": "Frontend + chat funnel para Nano Moringa (CBD) sobre Next.js 15",
+  "description": "Frontend + chat funnel para Medicina Natural (CBD) sobre Next.js 15",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
@@ -11,11 +11,11 @@
     "check-build": "node scripts/check-build.js",
     "deploy-safe": "bash scripts/deploy-safe.sh",
     "deploy": "vercel --prod --yes --force",
-    "init-db": "curl -X GET https://nanomoringa.vercel.app/api/init-db",
-    "init-coupons": "curl -X GET https://nanomoringa.vercel.app/api/init-coupons",
-    "init-cart-sessions": "curl -X GET https://nanomoringa.vercel.app/api/init-cart-sessions",
+    "init-db": "curl -X GET https://medicina-natural-ecommerce.vercel.app/api/init-db",
+    "init-coupons": "curl -X GET https://medicina-natural-ecommerce.vercel.app/api/init-coupons",
+    "init-cart-sessions": "curl -X GET https://medicina-natural-ecommerce.vercel.app/api/init-cart-sessions",
     "cleanup-carts": "node scripts/cleanup-expired-carts.js",
-    "test-apis": "curl -s https://nanomoringa.vercel.app/api/products && curl -s https://nanomoringa.vercel.app/api/coupons"
+    "test-apis": "curl -s https://medicina-natural-ecommerce.vercel.app/api/products && curl -s https://medicina-natural-ecommerce.vercel.app/api/coupons"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",

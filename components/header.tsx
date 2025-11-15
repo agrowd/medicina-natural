@@ -47,8 +47,8 @@ export function Header() {
           <div className="relative">
             <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 xl:w-16 xl:h-16 rounded-full bg-primary-foreground flex items-center justify-center p-0.5 sm:p-1 md:p-1.5 lg:p-2 overflow-hidden transition-transform duration-300 group-hover:scale-105 shadow-lg">
               <Image
-                src="/brand/nanomoringa-logo.png"
-                alt="Nano Moringa"
+                src="/brand/medicina-natural-logo.png"
+                alt="Medicina Natural"
                 width={64}
                 height={64}
                 className="object-contain w-full h-full"

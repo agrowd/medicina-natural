@@ -34,7 +34,7 @@ Editar `app/globals.css` para cambiar:
 ## 🖼️ Imágenes
 
 ### Logo
-1. Reemplazar `public/brand/nanomoringa-logo.png`
+1. Reemplazar `public/brand/medicina-natural-logo.png`
 2. Actualizar referencias en:
    - `components/header.tsx`
    - `app/layout.tsx`
@@ -47,7 +47,7 @@ Reemplazar `public/favicon.svg` con tu logo en formato SVG.
 ### Imágenes del Inicio
 - Hero: Reemplazar en `app/page.tsx`
 - Galería: Reemplazar imágenes en `public/` y actualizar URLs en `app/page.tsx`
-- Video: Reemplazar `video-nanomoringa.mp4` y actualizar referencia
+- Video: Reemplazar videos en `/uploads/` y actualizar referencias
 
 ## 📝 Textos
 
@@ -78,7 +78,7 @@ Reemplazar `public/favicon.svg` con tu logo en formato SVG.
 3. Modificar la cadena de mensajes iniciales
 
 ### Configuración del Bot
-Editar `bot-nanomoringa/index.js` para cambiar:
+Editar `bot-medicina-natural/index.js` para cambiar:
 - Nombres de variables
 - Mensajes hardcodeados
 - Lógica de respuestas

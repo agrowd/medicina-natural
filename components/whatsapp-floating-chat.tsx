@@ -299,7 +299,7 @@ export function WhatsAppFloatingChat() {
             </svg>
           </div>
           <div>
-            <h3 className="font-semibold">Nano Moringa</h3>
+            <h3 className="font-semibold">Medicina Natural</h3>
             <p className="text-xs text-white/80">En línea</p>
           </div>
         </div>

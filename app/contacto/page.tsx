@@ -112,9 +112,9 @@ export default function ContactoPage() {
                   <Button
                     variant="outline"
                     className="w-full"
-                    onClick={() => window.open("https://instagram.com/nanomoringa", "_blank")}
+                    onClick={() => window.open("https://instagram.com/cbd.medicina.ok", "_blank")}
                   >
-                    📷 @nanomoringa
+                    📷 @cbd.medicina.ok
                   </Button>
                 </CardContent>
               </Card>

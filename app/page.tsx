@@ -72,7 +72,7 @@ export default function HomePage() {
         <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-primary/20 aspect-[16/9] bg-gradient-to-br from-accent/20 to-primary/20 flex items-center justify-center">
           <Image
             src={images[currentIndex]}
-            alt={`Imagen ${currentIndex + 1} de Nano Moringa`}
+            alt={`Imagen ${currentIndex + 1} de Medicina Natural`}
             width={1200}
             height={675}
             className="w-full h-full object-contain"
@@ -119,7 +119,7 @@ export default function HomePage() {
     <>
       <Header />
       <main>
-        {/* Hero Section - Nano Moringa */}
+        {/* Hero Section - Medicina Natural */}
         <section className="relative min-h-[100vh] flex flex-col items-center justify-center bg-gradient-to-br from-[#556B2F] via-[#6B8E23] to-[#556B2F] text-white overflow-hidden pt-24 pb-16">
           {/* Background Effects */}
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#6B8E23]/50 to-[#556B2F]" />
@@ -143,8 +143,8 @@ export default function HomePage() {
               <div className="relative">
                 <div className="w-36 h-36 sm:w-44 sm:h-44 md:w-52 md:h-52 rounded-full bg-white/95 flex items-center justify-center p-2 shadow-2xl animate-fade-in overflow-hidden">
                   <Image
-                    src="/brand/nanomoringa-logo.png"
-                    alt="Nano Moringa"
+                    src="/brand/medicina-natural-logo.png"
+                    alt="Medicina Natural"
                     width={200}
                     height={200}
                     className="object-contain"
@@ -153,7 +153,7 @@ export default function HomePage() {
                 <div className="absolute inset-0 bg-gradient-to-r from-green-400/30 to-emerald-400/30 rounded-full blur-2xl -z-10 animate-pulse"></div>
               </div>
               <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight bg-gradient-to-r from-white via-[#F5F5DC] to-white bg-clip-text text-transparent drop-shadow-2xl font-[family-name:var(--font-playfair)]">
-                NANO MORINGA
+                MEDICINA NATURAL
               </h1>
             </div>
 
@@ -324,26 +324,26 @@ export default function HomePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-12">
                 <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-primary/20 aspect-square bg-white flex items-center justify-center">
                   <Image
+                    src="/uploads/beneficios-cbd.png"
+                    alt="Beneficios CBD - Medicina Natural"
+                    width={600}
+                    height={600}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-primary/20 aspect-square bg-white flex items-center justify-center">
+                  <Image
+                    src="/uploads/gel-crema.png"
+                    alt="Gel Crema - Medicina Natural"
+                    width={600}
+                    height={600}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-primary/20 aspect-square bg-white flex items-center justify-center">
+                  <Image
                     src="/uploads/nanomoringa-hero1.png"
-                    alt="Producto natural Nano Moringa"
-                    width={600}
-                    height={600}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-primary/20 aspect-square bg-white flex items-center justify-center">
-                  <Image
-                    src="/uploads/nanomoringa-hero-2.png"
-                    alt="Producto natural Nano Moringa"
-                    width={600}
-                    height={600}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <div className="rounded-2xl overflow-hidden shadow-xl border-2 border-primary/20 aspect-square bg-white flex items-center justify-center">
-                  <Image
-                    src="/uploads/nanomoringa-hero4.jpeg"
-                    alt="Producto natural Nano Moringa"
+                    alt="Producto natural Medicina Natural"
                     width={600}
                     height={600}
                     className="w-full h-full object-contain"
